@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- throw away prototype, not actually used but it's nice to know it was there once -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="8dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pirates" />
+
+        <RadioButton
+            android:id="@+id/radio_polices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Police" />
+
+        <RadioButton
+            android:id="@+id/radio_chefs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chef" />
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"/>
+    <CheckBox android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meat" />
+    <CheckBox android:id="@+id/checkbox_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheese"/>
+    <CheckBox android:id="@+id/checkbox_soup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soup"/>
+</LinearLayout>
